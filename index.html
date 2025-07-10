@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Love Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>💖 Surprise Quiz for My Love 💖</h1>
+
+    <form id="quizForm">
+      <div class="question">
+        <p>1. Hamari first movie together kaunsi thi?</p>
+        <input type="radio" name="q1" value="a" /> DDLJ<br>
+        <input type="radio" name="q1" value="b" /> Tamasha<br>
+        <input type="radio" name="q1" value="c" /> Jab We Met<br>
+      </div>
+
+      <div class="question">
+        <p>2. Mera favorite color kya hai?</p>
+        <input type="radio" name="q2" value="a" /> Blue<br>
+        <input type="radio" name="q2" value="b" /> Black<br>
+        <input type="radio" name="q2" value="c" /> Red<br>
+      </div>
+
+      <div class="question">
+        <p>3. Hamari anniversary kis month me aati hai?</p>
+        <input type="radio" name="q3" value="a" /> February<br>
+        <input type="radio" name="q3" value="b" /> March<br>
+        <input type="radio" name="q3" value="c" /> April<br>
+      </div>
+
+      <div class="question">
+        <p>4. Mera favorite dish kya hai?</p>
+        <input type="radio" name="q4" value="a" /> Biryani<br>
+        <input type="radio" name="q4" value="b" /> Pasta<br>
+        <input type="radio" name="q4" value="c" /> Pizza<br>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <!-- Popup Card -->
+  <div class="popup" id="popup">
+    <div class="popup-content">
+      <h2>To My Jaan ❤️</h2>
+      <p>
+        Tumhara muskurana meri pehchaan hai,<br />
+        Tum khush raho yahi meri shaan hai,<br />
+        Kuch bhi nahi hai tumhare bina,<br />
+        Bas tum ho to meri har subah aur shaam hai... 🌙
+      </p>
+      <button onclick="closePopup()">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
