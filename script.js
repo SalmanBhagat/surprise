@@ -2,10 +2,10 @@ document.getElementById("quizForm").addEventListener("submit", function (e) {
   e.preventDefault();
 
   const answers = {
-    q1: "b",
+    q1: "a",
     q2: "a",
-    q3: "a",
-    q4: "a"
+    q3: "c",
+    q4: "c"
   };
 
   let allCorrect = true;
